@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>gastos</title>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">control gastos</h1>
+        <section class="contenido-principal">
+            <div class="row">
+                <div class="col">
+                    <div class="contenido-gastos">
+                        <h2 class="text-center">Añadir gastos</h2>
+                        <form id="Agregar-gastos" action="#">
+                            <div class="form-group">
+                                <label for="gasto">Gastos:</label>
+                                <input type="text" class="form-control" id="gasto" placeholder="Nombre del gasto">
+                            </div>
+                            <div class="form-group">
+                                <label for="cantidad">Valor:</label>
+                                <input type="number" class="form-control" id="cantidad" placeholder="Valor en $">
+                            </div>
+                            <section class="r">
+                            <button type="submit" class="btn btn-danger">Agregar</button>
+                        </section>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contenido-lista">
+                        <h2 class="text-center">lista de gastos</h2>
+                        <div id="gastos">
+                            <ul class="list-group"></ul>
+                        </div>
+                        <section class="dragon">
+                        <div id="presupuesto" class="presupuesto">
+                            <div class="alert alert-warning">
+                                <p>Presupuesto: $<span id="total"></span></p>
+                            </div>
+                            </section>
+                            <div class="restante alert alert-primary">
+                                <p>Restante: $<span id="restante"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="js/gastos.js"></script>
+</body>
+
+</html>

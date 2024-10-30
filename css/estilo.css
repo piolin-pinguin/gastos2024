@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(158, 127, 127);
+}
+
+body h1 {
+    text-align: center;
+    text-decoration: double;
+    background-color: aquamarine ;
+}
+
+body h2{
+    text-align: center;
+}
+
+body col{
+    background-color: blueviolet;
+}
+section {
+background-color: thistle;
+}
+section p{
+    border-color: aquamarine;
+}
+section button{
+    background-color: aquamarine;
+}
